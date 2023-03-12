@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "MacBook",
+      "price": 900,
+      "image": "assets/images/macebook.jpg",
+      "configure": {
+        "chip": "M1",
+        "year": 2020,
+        "SSD": "256 GB",
+        "memory": "16 GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 2,
+      "title": "MacBook2",
+      "price": 1200,
+      "image": "assets/images/macebook2.jpg",
+      "configure": {
+        "chip": "M2",
+        "year": 2021,
+        "SSD": "500 GB",
+        "memory": "16 GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 3,
+      "title": "MacBook Pro",
+      "price": 1300,
+      "image": "assets/images/macebook3.jpg",
+      "configure": {
+        "chip": "Intel",
+        "year": 2023,
+        "SSD": "1000 GB",
+        "memory": "32 GB",
+        "display": "Retina"
+      }
+    }
+  ]
+}
