@@ -1,13 +1,11 @@
 <form [formGroup]="myForm" (ngSubmit)="onSubmit()" class="example-form">
-<mat-form-field class="example-full-width" appearance="fill">
-  <mat-label>Title</mat-label>
-  <input matInput formControlName="title">
-</mat-form-field>
-
   <mat-form-field class="example-full-width" appearance="fill">
-  <mat-label>Price</mat-label>
-  <input matInput formControlName="price">
-</mat-form-field>
+    <mat-label>Title</mat-label>
+    <input matInput formControlName="title">
+
+    <mat-label>Price</mat-label>
+    <input matInput formControlName="price">
+  </mat-form-field>
 
   <mat-form-field class="example-full-width" appearance="fill">
     <mat-label>Year</mat-label>

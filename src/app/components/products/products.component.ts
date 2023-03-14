@@ -14,7 +14,6 @@ export class ProductsComponent implements OnInit {
   products: IProducts[];
   productsSubcription: Subscription;
   canEdit: boolean = false;
-  canView: boolean = false;
 
   constructor(private ProductsService: ProductsService, public dialog: MatDialog) {
   }
@@ -32,8 +31,7 @@ export class ProductsComponent implements OnInit {
     dialogConfig.width = '700px';
     dialogConfig.disableClose = true;
 
-    const dialogRef = this.dialog.open(DialogBoxComponent, dialogConfig
-    );
+    const dialogRef = this.dialog.open(DialogBoxComponent, dialogConfig);
   }
 
 
