@@ -19,10 +19,6 @@ myForm: FormGroup = new FormGroup({
   display: new FormControl(''),
 });
 
-onSubmit(){
-console.log(this.myForm)
-}
-
   constructor(
     public dialogRef: MatDialogRef<DialogBoxComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any,
@@ -34,5 +30,20 @@ console.log(this.myForm)
 
   onNoClick(): void {
     this.dialogRef.close();
+  }
+
+  onSubmit(){
+    this.data = {
+      title: this.myForm.value.title,
+      price: this.myForm.value.price,
+      year: this.myForm.value.year,
+      configure: {
+        chip: this.myForm.value.chip,
+        ssd: this.myForm.value.ssd,
+        memory: this.myForm.value.memory,
+        display: this.myForm.value.display,
+      }
+    }
+    // this.dialogRef.close();
   }
 }
