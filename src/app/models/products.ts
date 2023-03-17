@@ -2,14 +2,15 @@ export interface IProducts {
   id: number,
   title: string,
   price: number,
+  year: string,
   image?: string,
-  configure: IProductsConfig
+  configure: IProductsConfig;
+  quantity: number;
 }
 
 export interface IProductsConfig {
   chip: string,
-  year: number,
   ssd: string,
   memory: string,
-  display: string
+  display: string,
 }

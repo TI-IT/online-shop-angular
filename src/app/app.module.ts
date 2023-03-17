@@ -23,6 +23,7 @@ import {MatDialogModule} from "@angular/material/dialog";
 import {HttpClientModule} from "@angular/common/http";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
+
 @NgModule({
   declarations: [
     AppComponent,

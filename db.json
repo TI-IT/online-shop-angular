@@ -15,29 +15,46 @@
     },
     {
       "id": 2,
-      "title": "MacBook2",
-      "price": 1200,
-      "image": "assets/images/macebook2.jpg",
+      "title": 2,
+      "price": "288",
+      "year": "55",
+      "image": "assets/images/macbook.jpeg",
       "configure": {
-        "chip": "M2",
-        "year": 2021,
-        "SSD": "500 GB",
-        "memory": "16 GB",
-        "display": "Retina"
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
       }
     },
     {
       "id": 3,
-      "title": "MacBook Pro",
-      "price": 1300,
-      "image": "assets/images/macebook3.jpg",
+      "title": "test",
+      "price": "",
+      "year": "",
+      "image": "assets/images/macbook.jpeg",
       "configure": {
-        "chip": "Intel",
-        "year": 2023,
-        "SSD": "1000 GB",
-        "memory": "32 GB",
-        "display": "Retina"
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
       }
+    }
+  ],
+  "basket": [
+    {},
+    {
+      "id": 2,
+      "title": 2,
+      "price": "288",
+      "year": "55",
+      "image": "assets/images/macbook.jpeg",
+      "configure": {
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
+      },
+      "quantity": 1
     }
   ]
 }
